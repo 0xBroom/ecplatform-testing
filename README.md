@@ -1,45 +1,40 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+## About the Site 🚀
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+Blockchain-based eCommerce warranty system using NFTs
+The objective is to replace the physical warranty and have block chain based warranty using NFT which will ensure
+authenticity and security. <br>
+● Converting ownership authenticity and product warranty cards into decaying NFTs.📉<br>
+● For instance, allow brands and retailers to introduce an NFT for each of their products, which allows customers to receive the physical product along with a digital version of it.🚀<br>
+● Customers can then use the digital NFT to verify the authenticity of their product, prove their ownership of their product, and transfer ownership of them upon resale.🎯<br>
+● The brand/retailer should also be able to tie the digital NFT to its warranty program, allowing owners to trackrepairs and replacements to the original item.🤩<br>
+● Decay the NFT once the warranty is over.🥸<br>
+● WE used the Polygon blockchain to deploy our solution and demo the final product as a web prototype🔗<br>
+## How to execute? 💻
+### Go to root directory: 
+`cd ecommerce_nft`
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+### First install the packages using follow cmd:
+`npm install`
 
----
+`npm run install-all`
 
-## Edit a file
+### Now start the project using concurrently:
+`npm start`
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+## Tech Stack 💻
 
----
+### WEB 3.0 :
+- Hardhat 
+- Moralis 
+- Solidity 
+- Ethereum
 
-## Create a file
+### Frontend :
 
-Next, you’ll add a new file to this repository.
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+### Backend :
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
----
-
-## Clone a repository
-
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
