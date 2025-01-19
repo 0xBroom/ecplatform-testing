@@ -5,7 +5,7 @@ import { sellerAuthContext } from "../../../Contexts";
 
 const CreateProduct = () => {
   const { addProduct } = useContext(sellerAuthContext);
-  // console.log(products.product);
+  // window.console.log(products.product);
 
   const [img, setImg] = useState(null);
   const [imgPreview, setImgPreview] = useState(null);
@@ -47,7 +47,7 @@ const CreateProduct = () => {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-    // console.log(seller);
+    // window.console.log(seller);
     if (
       title === "" ||
       brand === "" ||
@@ -67,11 +67,11 @@ const CreateProduct = () => {
       dataArray.append("hasWarranty", hasWarranty);
       dataArray.append("warrantyDuration", warrantyDuration);
       dataArray.append("image", img["0"], img["0"].name);
-      console.log(dataArray);
+      window.console.log(dataArray);
       try {
         await addProduct(dataArray);
       } catch (error) {
-        console.log(error);
+        window.console.log(error);
       }
     }
   };

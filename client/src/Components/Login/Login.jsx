@@ -49,7 +49,7 @@ const Login = () => {
         await loginSeller({ email, password });
         redirect("/");
       } catch (error) {
-        console.log(error);
+        window.console.log(error);
       }
     }
   };
@@ -63,7 +63,7 @@ const Login = () => {
         await login({ email, password });
         redirect("/");
       } catch (error) {
-        console.log(error);
+        window.console.log(error);
       }
     }
   };

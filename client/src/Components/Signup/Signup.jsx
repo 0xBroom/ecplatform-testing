@@ -56,7 +56,7 @@ const Signup = (props) => {
         await registerSeller({ name, email, password });
         redirect("/login");
       } catch (error) {
-        console.log(error);
+        window.console.log(error);
       }
     }
   };
@@ -71,7 +71,7 @@ const Signup = (props) => {
         await registerUser({ name, email, password });
         redirect("/login");
       } catch (error) {
-        console.log(error);
+        window.console.log(error);
       }
     }
   };

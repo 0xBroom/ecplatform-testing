@@ -18,7 +18,7 @@ const EditProfile = () => {
     const [file] = e.target.files;
     setImgPreview(URL.createObjectURL(file));
     setImg(file);
-    // console.log(file);
+    // window.console.log(file);
   };
   const onChangeHandler = (e) => {
     setUser({
@@ -31,7 +31,7 @@ const EditProfile = () => {
     e.preventDefault();
     const dataArray = new FormData();
     dataArray.append("image", img, img.name);
-    // console.log(img);
+    // window.console.log(img);
     updateImage(dataArray);
   };
 

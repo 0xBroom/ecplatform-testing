@@ -56,7 +56,7 @@ const UserAuthState = (props) => {
         "Content-Type": "application/json",
       },
     };
-    // console.log(localStorage.userToken);
+    // window.console.log(localStorage.userToken);
     if (localStorage.userToken) {
       setAuthUserToken(localStorage.userToken);
     }
@@ -80,7 +80,7 @@ const UserAuthState = (props) => {
       dispatch({ type: REGISTER_SUCCESS, payload: res.data });
       // loadUser();
     } catch (error) {
-      // console.log(error);
+      // window.console.log(error);
       dispatch({ type: REGISTER_FAIL, payload: error.message });
     }
   };
@@ -124,7 +124,7 @@ const UserAuthState = (props) => {
   //       // loadUser();
   //     } catch (error) {
   //       //   dispatch({ type: LOGIN_FAIL, payload: error.response.data.message });
-  //       console.log(error);
+  //       window.console.log(error);
   //     }
   //   };
   //   BUUUY
@@ -139,10 +139,10 @@ const UserAuthState = (props) => {
       const res = await axios.post(`/api/product/${id}`, config);
       dispatch({ type: BUY_PRODUCT, payload: res.data });
       // loadUser();
-      console.log(res);
+      window.console.log(res);
     } catch (error) {
       //   dispatch({ type: LOGIN_FAIL, payload: error.response.data.message });
-      console.log(error);
+      window.console.log(error);
     }
   };
 
@@ -158,9 +158,9 @@ const UserAuthState = (props) => {
       const res = await axios.post(`/api/user/profile/image`, formData, config);
       dispatch({ type: UPDATE_IMAGE });
     } catch (error) {
-      // console.log(error);
+      // window.console.log(error);
       // dispatch({ type: ADD_IMAGE_FAIL, payload: error.message });
-      console.log(error);
+      window.console.log(error);
     }
   };
   //   Update profile
@@ -174,9 +174,9 @@ const UserAuthState = (props) => {
       const res = await axios.put(`/api/user/profile`, user, config);
       dispatch({ type: UPDATE_PROFILE, payload: res.data });
     } catch (error) {
-      // console.log(error);
+      // window.console.log(error);
       // dispatch({ type: ADD_IMAGE_FAIL, payload: error.message });
-      console.log(error);
+      window.console.log(error);
     }
   };
 
